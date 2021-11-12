@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Tong-reponsive{
+    width: 100%;
+}
+.img-bia{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.img-bia img{
+    width: 70%;
+}
+.text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon-camera{
+    text-align: center;
+}
+.icon-camera i{
+    font-size: 18px;
+    position: absolute;
+    padding: 8px 8px;
+    border:1px solid rgb(48, 47, 47);
+    border-radius: 20px;
+    color: aliceblue;
+    background: rgb(56, 56, 56);
+    margin-top: -2.5%;
+    margin-left: 3%;
+}
+.tieusu a{
+    text-decoration: none;
+    color: rgb(116, 111, 111);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 5px 10px 20px 10px;
+}
+.tieusu a:hover{
+    background: rgb(230, 226, 226);
+}
+@media (min-width:1024px) {
+    .img-daidien{
+        text-align: center;
+    }
+    .img-daidien img{
+        margin-top: -170px;
+        margin-left: -92px;
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        border-radius: 150px;
+        border: 5px solid rgb(31, 30, 30);
+    }
+    .text{
+        margin-top: 30px;
+    }
+    .tieusu{
+        text-align: center;
+    }
+}
+/* tablet: >=740px and <= 1024px */
+@media (min-width:740px) and (max-width:1023px) {
+    .Tong-reponsive{
+        display: none;
+    }
+}
+
+/* mobile : < 740px*/
+@media (max-width:739px) {
+    .Tong-reponsive{
+        min-height: 647px;
+        padding: 18px 10px 0 10px;
+        box-sizing: border-box;
+    }
+    .img-bia{
+        width: 100%;
+    }
+    .img-bia img{
+        width: 100%;
+    }
+    .img-daidien{
+        text-align: center;
+    }
+    .img-daidien img{
+        margin-top: -100px;
+        margin-left: -92px;
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        border-radius: 150px;
+        border: 5px solid rgb(255, 255, 255);
+    }
+    .icon-camera i{
+        font-size: 13px;
+        padding: 10px;
+        color: black;
+        margin-top: 8%;
+        margin-left: 8%;
+        background: rgb(224, 218, 218);
+        border: 1px solid rgb(196, 192, 192);
+    }
+    .text{
+        margin-top: 100px;
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        
+    }
+    .text span{
+        background: rgb(0, 119, 255);
+        color: white;
+        border-radius:50px;
+        padding: 2px 3px;
+        border: 1px solid rgb(0, 119, 255);
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .tieusu{
+        text-align: center;
+    }
+    .tab-bar{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .themvaotin{
+        margin-bottom: 20px;
+    }
+    .themvaotin a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #4294FF;
+        background: #4294FF;
+        padding: 1% 39%;
+        border-radius: 5px;
+    }
+    .themvaotin a:hover{
+        background: #296ec9;
+        border: 1px solid #296ec9;
+    }
+    .chinhsuacanhan .pen{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 600;
+        border: 1px solid rgb(224, 218, 218);
+        background:rgb(224, 218, 218);
+        padding: 1% 27.2%;
+        border-radius: 5px
+    }
+    .chinhsuacanhan .pen:hover{
+        background:rgb(209, 206, 206);
+        border: 1px solid rgb(209, 206, 206);
+    }
+    .chinhsuacanhan .bar{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 600;
+        border: 1px solid rgb(224, 218, 218);
+        background: rgb(224, 218, 218);
+        padding: 1% 2.5%;
+        border-radius: 5px
+    }
+    .chinhsuacanhan .bar:hover{
+        background:rgb(209, 206, 206);
+        border: 1px solid rgb(209, 206, 206);
+    }
+}
